@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Wassim Beltaief</title>
+ <link href="/" rel="self"/>
+ <link href=""/>
+ <updated>2016-09-29T14:14:05+02:00</updated>
+ <id></id>
+ <author>
+   <name></name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>Neueröffnung der Verkaufsräume bei Seiler</title>
+   <link href="/2016/09/26/seiler-neuer%C3%B6ffnung.html"/>
+   <updated>2016-09-26T17:30:00+02:00</updated>
+   <id>/2016/09/26/seiler-neueröffnung</id>
+   <content type="html">&lt;p&gt;Am Samstag, 24. 9., hat die Klavierfabrik Seiler in Kitzingen ihre neuen Verkaufsräume eröffnet. Diese sind im Ortsteil Etwashausen im Gebäude der Traditionsfirma.&lt;/p&gt;
+
+&lt;p&gt;Die Verkaufsräume sind auf zwei Etagen verteilt; die Klaviere stehen im Erdgeschoss, die Flügel oben. Bei den Klavieren sind vor allem die in Kitzingen hergestellten Modelle, aber auch die der koreanischen Mutterfirma Samick, zu sehen.&lt;br /&gt;
+Oben ist ein kleiner Konzertsaal eingerichtet, bei dem an den Seiten die Flügelmodelle stehen. Einen Raum weiter finden sich Sondermodelle und auch historische Instrumente der Manufaktur.&lt;/p&gt;
+
+&lt;p&gt;Ein Highlight für mich war, dass ich auf vielen der Pianos spielen durfte - kein Vergleich zu dem ein bisschen in die Jahre gekommenen Klavier zuhause.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Use my jekyll theme</title>
+   <link href="/2016/09/19/use-my-jekyll-theme.html"/>
+   <updated>2016-09-19T22:10:00+02:00</updated>
+   <id>/2016/09/19/use-my-jekyll-theme</id>
+   <content type="html">&lt;h2 id=&quot;hints&quot;&gt;Hints&lt;/h2&gt;
+
+&lt;p&gt;If you want to use my jekyll theme, follow the instructions and host it yourself. Easily setup as a Github page.&lt;/p&gt;
+
+&lt;p&gt;To add pages (for example a portfolio, an extra about page, and so on), you need to link them to the &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt; manually. Required to configure in this dimensions is a bit of html and jekyll know-how. Reading the &lt;a href=&quot;http://jekyllrb.com/docs/pages/&quot;&gt;Jekyll docs&lt;/a&gt; helps. All other things are easy to edit and configure, even without much jekyll experience.&lt;/p&gt;
+
+&lt;p&gt;Please use the branch &lt;em&gt;theme&lt;/em&gt; of the repo, please not the &lt;em&gt;master&lt;/em&gt; branch.
+If you want to use the &lt;em&gt;master&lt;/em&gt; branch (for example, you simply fork the website), please remove/reedit the google analytics tracking ID from &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;. Please remove the &lt;code class=&quot;highlighter-rouge&quot;&gt;CNAME&lt;/code&gt; (or change the domain) too.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;CHANGE THE GOOGLE ANALYTICS ID&lt;/strong&gt;
+You &lt;em&gt;have to&lt;/em&gt; change the value of &lt;code class=&quot;highlighter-rouge&quot;&gt;g_analytics&lt;/code&gt; in _config.yml.&lt;/p&gt;
+
+&lt;h4 id=&quot;theme-features&quot;&gt;Theme features&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Projects showcase&lt;/li&gt;
+  &lt;li&gt;RSS and ATOM feed&lt;/li&gt;
+  &lt;li&gt;Blogpost pagination&lt;/li&gt;
+  &lt;li&gt;SEO meta tags, &lt;em&gt;schema.org&lt;/em&gt; structured data&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://dev.twitter.com/cards/getting-started&quot;&gt;twitter&lt;/a&gt; cards&lt;/li&gt;
+  &lt;li&gt;made with MaterializeCSS&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;setup&quot;&gt;Setup&lt;/h2&gt;
+
+&lt;h3 id=&quot;get-the-sources&quot;&gt;1. Get the sources&lt;/h3&gt;
+
+&lt;h4 id=&quot;clone&quot;&gt;1.1 Clone&lt;/h4&gt;
+
+&lt;p&gt;Clone the repository from github:&lt;br /&gt;
+&lt;a href=&quot;https://github.com/lukas-h/lukas-h.github.io.git&quot;&gt;https://github.com/lukas-h/lukas-h.github.io.git&lt;/a&gt;&lt;br /&gt;
+Checkout the branch &lt;em&gt;theme&lt;/em&gt;, by typing &lt;code class=&quot;highlighter-rouge&quot;&gt;git checkout theme&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;download&quot;&gt;1.2 download&lt;/h4&gt;
+&lt;p&gt;Get the branch &lt;em&gt;theme&lt;/em&gt; from my repository:&lt;br /&gt;
+&lt;a href=&quot;https://github.com/lukas-h/lukas-h.github.io/archive/theme.zip&quot;&gt;https://github.com/lukas-h/lukas-h.github.io/archive/theme.zip&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;configure&quot;&gt;2. Configure&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Replace all the configuration in &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;_data/projects.yml&lt;/code&gt; by your own data. Change the name, email address, configure your your language settings.&lt;br /&gt;
+And most important: change the site’s URL! Optionally add your google analytics ID.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Put your address and legal info into &lt;code class=&quot;highlighter-rouge&quot;&gt;imprint.html&lt;/code&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Change the icon &lt;code class=&quot;highlighter-rouge&quot;&gt;images/favicon.png&lt;/code&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Remove or edit the &lt;code class=&quot;highlighter-rouge&quot;&gt;CNAME&lt;/code&gt; file that it does not point anymore to &lt;em&gt;himsel.me&lt;/em&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Don’t forget the &lt;code class=&quot;highlighter-rouge&quot;&gt;README.md&lt;/code&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;start-writing-posts&quot;&gt;3. Start writing posts&lt;/h3&gt;
+&lt;p&gt;Replace the existing example post and then add your own!&lt;br /&gt;
+Have a look at the &lt;a href=&quot;http://jekyllrb.com/docs/posts/&quot;&gt;Jekyll docs&lt;/a&gt;
+about how to write blog posts.&lt;br /&gt;
+To add tags to your posts, look into the example, you’ll see that there is
+a line starting with &lt;code class=&quot;highlighter-rouge&quot;&gt;tags:&lt;/code&gt;. Add your keywords there.&lt;/p&gt;
+
+&lt;h3 id=&quot;youre-done&quot;&gt;4. You’re done&lt;/h3&gt;
+&lt;p&gt;Take a stop on the Github project page. Feel free to give a star and share it with others!&lt;br /&gt;
+You have questions, feedback or something to improve, mail me or open issues on github. Contributions are always welcome.
+&lt;a href=&quot;https://github.com/lukas-h/lukas-h.github.io&quot;&gt;See the Github Project&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Über mich</title>
+   <link href="/2016/09/11/ueber-mich.html"/>
+   <updated>2016-09-11T22:12:00+02:00</updated>
+   <id>/2016/09/11/ueber-mich</id>
+   <content type="html">&lt;p&gt;Ich bin ein Schüler aus dem Raum Kitzingen, bin 16 Jahre alt und liebe es, Klavier zu spielen und multimediale Projekte umzusetzen.&lt;/p&gt;
+
+&lt;p&gt;Ich lebe erst seit kurzem im fränkischen Raum, davor war ich mein ganzes Leben in Raum Stuttgart bei Heilbronn. In der alten Region habe ich mich
+an mehreren &lt;a href=&quot;https://github.com/opendata-heilbronn&quot;&gt;Projekten&lt;/a&gt; rund um Open-Data beteiligt.&lt;/p&gt;
+
+&lt;p&gt;Mein Lieblingsinstrument ist das Klavier, das ich auch selbst spiele
+(wie schon erwähnt).&lt;br /&gt;
+Ich spiele meist klassische Musik; hören tu ich aber auch neuere Musik.&lt;br /&gt;
+Im Blog werden sich einige Artikel zum Thema Klavier und Musik finden.&lt;/p&gt;
+
+&lt;p&gt;Ich werde mich auch um Artikel über meine Projekte,
+Webtechnologien, Linux, BSD, C, Open-Source, Open-Data und viele weitere Themen bemühen.
+Wenn ich mal Zeit finde, schreibe ich auch ein paar Zeilen über dies und das. 
+Ganz vergessen; Material Design ist etwas, dass ich seit neuerer Zeit sehr feiere.&lt;/p&gt;
+
+&lt;h2 id=&quot;kontakt&quot;&gt;Kontakt&lt;/h2&gt;
+&lt;p&gt;Wenn man mit mir Kontakt aufnehmen will, dann am besten über Twitter oder per E-Mail.
+Telefon oder Instant-Messaging kann dann geklärt werden.&lt;br /&gt;
+lukas (at) himsel.me&lt;/p&gt;
+
+&lt;h2 id=&quot;ber-diese-seite&quot;&gt;Über diese Seite&lt;/h2&gt;
+&lt;p&gt;Diese Seite ist mit Jekyll und Materialize CSS umgesetzt.
+Die Jekyll Theme ist unter der MIT Lizenz veröffentlicht und kann
+frei verwendet werden, kann auch voll angepasst werden. &lt;a href=&quot;http://himsel.me/2016/09/19/use-my-jekyll-theme.html&quot;&gt;Benutz meine Theme!&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Markdown License Badges</title>
+   <link href="/2016/09/06/markdown-license-badges.html"/>
+   <updated>2016-09-06T13:04:00+02:00</updated>
+   <id>/2016/09/06/markdown-license-badges</id>
+   <content type="html">&lt;p&gt;I am a person who spends for every hour of coding the same amount of time on creating READMEs
+and documentation. I wanted to give the people, who have a quick look on the projects a
+small info of the licensing conditions.&lt;/p&gt;
+
+&lt;p&gt;I created a Gist on my Github with a bunch of License badges for including into markdown files.&lt;br /&gt;
+Simply copy and paste the badge with your selected License into the project’s README.&lt;br /&gt;
+If you are searching for a license badge, check it out and let me know, you like it!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba&quot;&gt;Here is the magic list!&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Liste der besten Konzertflügel</title>
+   <link href="/2016/09/05/liste-der-besten-fluegel.html"/>
+   <updated>2016-09-05T22:13:00+02:00</updated>
+   <id>/2016/09/05/liste-der-besten-fluegel</id>
+   <content type="html">&lt;p&gt;Diese Liste beinhaltet fast alle Konzertflügel (auf englisch grand piano) und Semi-Konzertflügel von fast allen Klaviermanufakturen auf der Welt.
+Sie enthält die größten, schönsten und besten Klaviermodelle ab einer Größe von 2,20 Metern.
+Die „kleineren“ Flügel sind mit &lt;code class=&quot;highlighter-rouge&quot;&gt;(Semi-Konzert)&lt;/code&gt; markiert, damit sie schnell erkannt werden können.&lt;/p&gt;
+
+&lt;h2 id=&quot;august-frster&quot;&gt;August Förster&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/images/2016-09-05-liste-der-besten-fluegel/foerster.gif&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+Hergestellt in &lt;strong&gt;Deutschland&lt;/strong&gt; (Löbau)&lt;br /&gt;
+&lt;a href=&quot;http://www.august-foerster.de/cms/en/12/Grand-Pianos&quot;&gt;August Förster model 275 “Super Mondial” &amp;amp; model 215 (Semi-Konzert)&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;baldwin&quot;&gt;Baldwin&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016-09-05-liste-der-besten-fluegel/NavLogo_Baldwin.jpg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+Hergestellt in China (Zhongshan, Dongbei) und den USA (Trumann, Arkansas)&lt;br /&gt;
+&lt;a href=&quot;http://www.baldwinpiano.com/Products/Pianos/Grand/Baldwin/SD10.aspx&quot;&gt;Baldwin SD10&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;c-bechstein&quot;&gt;C. Bechstein&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016-09-05-liste-der-besten-fluegel/220px-Bechstein_Logo.svg.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+Hergestellt in &lt;strong&gt;Deutschland&lt;/strong&gt; (Berlin, Seifhennersdorf)&lt;br /&gt;
+&lt;a href=&quot;http://www.bechstein.com/en/upright-grand-pianos/c-bechstein-d-282/schwarz-8/&quot;&gt;C. Bechstein D 282&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://www.bechstein.com/en/upright-grand-pianos/c-bechstein-c-234/schwarz-10/&quot;&gt;C. Bechstein C 234&lt;/a&gt;(Semi-Konzert)&lt;/p&gt;
+
+&lt;h4 id=&quot;bechstein&quot;&gt;Bechstein&lt;/h4&gt;
+&lt;p&gt;Hergestellt in &lt;strong&gt;Deutschland&lt;/strong&gt; (Berlin, Seifhennersdorf) und Tschechien (Hradec Kralove)&lt;br /&gt;
+&lt;a href=&quot;http://www.bechstein.com/en/upright-grand-pianos/bechstein-b-228/schwarz-172/&quot;&gt;Bechstein B 228&lt;/a&gt;(Semi-Konzert)&lt;/p&gt;
+
+&lt;h2 id=&quot;blthner&quot;&gt;Blüthner&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016-09-05-liste-der-besten-fluegel/Bluethner_Logo.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+Hergestellt in &lt;strong&gt;Deutschland&lt;/strong&gt; (Leipzig)&lt;br /&gt;
+&lt;a href=&quot;http://www.bluethnerworld.com/index.php?option=com_content&amp;amp;view=article&amp;amp;id=178%3Amodel-1&amp;amp;catid=54%3Aclassic-models-bluethner&amp;amp;Itemid=143&amp;amp;lang=en&quot;&gt;Blüthner Model One&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://www.bluethnerworld.com/index.php?option=com_content&amp;amp;view=article&amp;amp;id=179%3Amodel-2&amp;amp;catid=54%3Aclassic-models-bluethner&amp;amp;Itemid=144&amp;amp;lang=en&quot;&gt;Blüthner Model 2&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;irmler&quot;&gt;Irmler&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016-09-05-liste-der-besten-fluegel/Irmler_Logo_grau_66.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+Hergestellt in &lt;strong&gt;Deutschland&lt;/strong&gt; (Großpösna) (?)&lt;br /&gt;
+&lt;a href=&quot;http://www.irmler-piano.com/index.php/en/instruments-2/europe-gallery&quot;&gt;Irmler F 230 E Europe&lt;/a&gt;(Semi-Konzert)&lt;/p&gt;
+
+&lt;h2 id=&quot;borgato&quot;&gt;Borgato&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016-09-05-liste-der-besten-fluegel/borgato.gif&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+Hergestellt in &lt;strong&gt;Italien&lt;/strong&gt; (Vicenza)&lt;br /&gt;
+&lt;a href=&quot;http://www.borgato.it/grancoda.htm&quot;&gt;Borgato L 282&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;bsendorfer&quot;&gt;Bösendorfer&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016-09-05-liste-der-besten-fluegel/bosendorfer.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+Hergestellt in &lt;strong&gt;Österreich&lt;/strong&gt; (Wien)&lt;br /&gt;
+&lt;a href=&quot;http://www.boesendorfer.com/en/models/model-225&quot;&gt;Bösendorfer 225&lt;/a&gt;(Semi-Konzert)&lt;br /&gt;
+&lt;a href=&quot;http://www.boesendorfer.com/en/models/model-280&quot;&gt;Bösendorfer 280 VC (Vienna Concert)&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://www.boesendorfer.com/en/models/model-290-imperial&quot;&gt;Bösendorfer 290 Imperial&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;estonia-piano&quot;&gt;Estonia Piano&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016-09-05-liste-der-besten-fluegel/Estonia.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+Hergestellt in &lt;strong&gt;Estland&lt;/strong&gt; (Tallinn)&lt;br /&gt;
+&lt;a href=&quot;http://www.estoniapiano.com/225.html&quot;&gt;Estonia Model 225&lt;/a&gt;(Semi-Konzert)&lt;br /&gt;
+&lt;a href=&quot;http://www.estoniapiano.com/274.html&quot;&gt;Estonia Model 274&lt;/a&gt;(Semi-Konzert)&lt;/p&gt;
+
+&lt;h2 id=&quot;feurich&quot;&gt;Feurich&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016-09-05-liste-der-besten-fluegel/feurich.jpg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+Hergestellt in China (Ningbo) &amp;amp; Deutschland (Burscheid)&lt;br /&gt;
+&lt;a href=&quot;http://www.feurich.com/innovative-production/mod-218-concert-i/&quot;&gt;Feurich 218 - Concert&lt;/a&gt;(Semi-Konzert)&lt;/p&gt;
+
+&lt;h2 id=&quot;fazioli&quot;&gt;Fazioli&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016-09-05-liste-der-besten-fluegel/logo-fazioli.jpg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+Hergestellt in &lt;strong&gt;Italien&lt;/strong&gt; (Sacile)&lt;br /&gt;
+&lt;a href=&quot;http://www.fazioli.com/it/pianoforti/modelli/f228&quot;&gt;Fazioli Modelllo F228&lt;/a&gt;(Semi-Konzert)&lt;br /&gt;
+&lt;a href=&quot;http://www.fazioli.com/it/pianoforti/modelli/f278&quot;&gt;Fazioli Modello F278&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://www.fazioli.com/it/pianoforti/modelli/f308&quot;&gt;Fazioli Modello F308&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;grotrian-steinweg&quot;&gt;Grotrian Steinweg&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016-09-05-liste-der-besten-fluegel/grotrian.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+Hergestellt in &lt;strong&gt;Deutschland&lt;/strong&gt; (Braunschweig)&lt;br /&gt;
+&lt;a href=&quot;http://www.grotrian.de/en/instruments/grand-pianos/concert/&quot;&gt;Grotrian Concert (225)&lt;/a&gt;(Semi-Konzert)&lt;br /&gt;
+&lt;a href=&quot;http://www.grotrian.de/en/instruments/grand-pianos/concert-royal/&quot;&gt;Grotrian Concert Royal (277)&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;hailun&quot;&gt;Hailun&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016-09-05-liste-der-besten-fluegel/hailun.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+Hergestellt in China (Ningbo) &lt;a href=&quot;https://www.hailun-pianos.com/products/grand-pianos/piano/8/grand_model_hg_218.html&quot;&gt;Hailun Grand Model HG 218&lt;/a&gt;(Semi-Konzert)&lt;/p&gt;
+
+&lt;h2 id=&quot;heintzman--co&quot;&gt;Heintzman &amp;amp; Co.&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016-09-05-liste-der-besten-fluegel/heintzman.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+Hergestellt in China (Beijing)&lt;br /&gt;
+&lt;a href=&quot;http://hzmpiano.com/?page_id=5906&quot;&gt;Heintzman 277&lt;/a&gt;(Semi-Konzert)&lt;/p&gt;
+
+&lt;h2 id=&quot;kawai&quot;&gt;Kawai&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016-09-05-liste-der-besten-fluegel/kawai.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+Hergestellt in Japan (und Indonesien ?)&lt;br /&gt;
+&lt;a href=&quot;http://kawaius.com/grand/ex/ex_new.html&quot;&gt;Kawai EX Concert Piano&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://kawaius.com/grand/gx_series/gx_models/gx7.html&quot;&gt;GX-7 Blak&lt;/a&gt;(Semi-Konzert)&lt;/p&gt;
+
+&lt;h4 id=&quot;shigeru-kawai&quot;&gt;Shigeru Kawai&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016-09-05-liste-der-besten-fluegel/shigeru_kawai.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+Hergestellt in Japan&lt;br /&gt;
+&lt;a href=&quot;http://www.shigerukawai.com/selection/model-range/sk-7-semi-concert-grand/&quot;&gt;Shigeru Kawai SK-7&lt;/a&gt;(Semi-Konzert)&lt;br /&gt;
+&lt;a href=&quot;http://www.shigerukawai.com/selection/model-range/sk-ex-concert-grand/&quot;&gt;Shigeru Kawai SK-EX&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;mason--hamlin&quot;&gt;Mason &amp;amp; Hamlin&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016-09-05-liste-der-besten-fluegel/masonhamlin.gif&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+Hergestellt in den USA (Haverhill, MA)&lt;br /&gt;
+&lt;a href=&quot;http://masonhamlin.com/pianos/model-cc94&quot;&gt;Mason &amp;amp; Hamlin CC-94&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://masonhamlin.com/pianos/model-bb&quot;&gt;Mason &amp;amp; Hamlin BB&lt;/a&gt;(Semi-Konzert)&lt;/p&gt;
+
+&lt;h2 id=&quot;overs-pianos&quot;&gt;Overs Pianos&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016-09-05-liste-der-besten-fluegel/overs.gif&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+Hergestellt in Australia (Sydney)&lt;br /&gt;
+&lt;a href=&quot;http://www.overspianos.com.au/frameset.html&quot;&gt;Overs 225 (Semi-Konzert) &amp;amp; 280&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;pearl-river&quot;&gt;Pearl River&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016-09-05-liste-der-besten-fluegel/pearl_river.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+Hergestellt in China (Guanguzhou)&lt;br /&gt;
+&lt;a href=&quot;http://www.pearlriverusa.com/portfolio_page/gp275/&quot;&gt;Pearl River GP275&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;petrof&quot;&gt;Petrof&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016-09-05-liste-der-besten-fluegel/petrof.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+Hergestellt in Tschechien (Hradec Kralove)&lt;br /&gt;
+&lt;a href=&quot;http://www.petrof.com/klavir-p-284-mistral.html&quot;&gt;Petrof P 284 mistral grand piano&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://m.petrof.cz/ant.-petrof-ap-275.html&quot;&gt;Ant. Petrof 275&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://m.petrof.cz/klavir-p-237-monsoon.html&quot;&gt;Petrof P 237&lt;/a&gt;(Semi-Konzert)&lt;/p&gt;
+
+&lt;h2 id=&quot;pleyel&quot;&gt;Pleyel&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016-09-05-liste-der-besten-fluegel/pleyel.jpg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+Hergestellt in &lt;strong&gt;Frankreich&lt;/strong&gt; (Alès)&lt;br /&gt;
+&lt;a href=&quot;http://piano.pleyel.fr/piano-classique/piano-a-queue-p280-noir.html&quot;&gt;Pleyel P280&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;ravenscroft&quot;&gt;Ravenscroft&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016-09-05-liste-der-besten-fluegel/RavenscroftLogo.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+Hergestellt in den USA (Scottsdale, Arizona)&lt;br /&gt;
+&lt;a href=&quot;http://www.ravenscroftpianos.com/275.php&quot;&gt;Ravenscroft 275&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://www.ravenscroftpianos.com/220.php&quot;&gt;Ravenscroft 220&lt;/a&gt;(Semi-Konzert)&lt;/p&gt;
+
+&lt;h2 id=&quot;rnisch&quot;&gt;Rönisch&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016-09-05-liste-der-besten-fluegel/roenisch.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+Hergestellt in &lt;strong&gt;Deutschland&lt;/strong&gt; (Großpösna)&lt;br /&gt;
+&lt;a href=&quot;http://www.roenisch-pianos.de/fluegel-210er.html&quot;&gt;Rönisch 210 K&lt;/a&gt;(Semi-Konzert)&lt;/p&gt;
+
+&lt;h2 id=&quot;rubenstein&quot;&gt;Rubenstein&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016-09-05-liste-der-besten-fluegel/rubenstein.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+Hergestellt in the USA (?)&lt;br /&gt;
+&lt;a href=&quot;http://www.rubensteinpianos.com/pages/r-371.html&quot;&gt;Rubenstein R-371&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://www.rubensteinpianos.com/pages/r-245.html&quot;&gt;Rubenstein R-245&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;samick&quot;&gt;Samick&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016-09-05-liste-der-besten-fluegel/samick.gif&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+Hergestellt in Südkorea und Indonesien (?)&lt;br /&gt;
+&lt;a href=&quot;http://samick.co.kr/eng/products/products_view.php?pd_idx=10&amp;amp;ct_code=000004&quot;&gt;Samick FS-280&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://samick.co.kr/eng/products/products_view.php?pd_idx=11&amp;amp;ct_code=000004&quot;&gt;Samick SP-228&lt;/a&gt;(Semi-Konzert)&lt;/p&gt;
+
+&lt;h4 id=&quot;kohler--campbell&quot;&gt;Kohler &amp;amp; Campbell&lt;/h4&gt;
+
+&lt;p&gt;Hergestellt von der Samick Music Incorporation&lt;br /&gt;
+&lt;a href=&quot;http://www.kohlerandcampbell.com/kfm850.html&quot;&gt;Kohler &amp;amp; Campbell KFM-850&lt;/a&gt;(Semi-Konzert)&lt;/p&gt;
+
+&lt;h4 id=&quot;wm-knabe--co&quot;&gt;Wm. Knabe &amp;amp; Co.&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016-09-05-liste-der-besten-fluegel/wmknabe.gif&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+Hergestellt von der Samick Music Incorporation&lt;br /&gt;
+&lt;a href=&quot;http://www.knabepianos.com/wkg90.php&quot;&gt;Wm. Knabe &amp;amp; Co. WKG 90&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://www.knabepianos.com/wkg76.php&quot;&gt;Wm. Knabe &amp;amp; Co. WKG 76&lt;/a&gt;(Semi-Konzert)&lt;/p&gt;
+
+&lt;h4 id=&quot;pramberger&quot;&gt;Pramberger&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016-09-05-liste-der-besten-fluegel/pramberger-logo-home.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+Hergestellt von der Samick Music Incorporation&lt;br /&gt;
+&lt;a href=&quot;http://prambergerpianoco.com/pianos/grand-pianos/platinum-series/jp-280e/&quot;&gt;Pramberger JP-280E&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://prambergerpianoco.com/pianos/grand-pianos/platinum-series/jp-228c/&quot;&gt;Pramberger JP-228C&lt;/a&gt;(Semi-Konzert)&lt;/p&gt;
+
+&lt;h2 id=&quot;sauter&quot;&gt;Sauter&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016-09-05-liste-der-besten-fluegel/sauter.jpg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+Hergestellt in &lt;strong&gt;Deutschland&lt;/strong&gt; (Spaichingen)&lt;br /&gt;
+&lt;a href=&quot;http://www.sauter-pianos.de/en/concert-275&quot;&gt;Sauter Concert 275&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;schimmel&quot;&gt;Schimmel&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016-09-05-liste-der-besten-fluegel/schimmel_logo_creme.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+Hergestellt in &lt;strong&gt;Deutschland&lt;/strong&gt; (Braunschweig)&lt;br /&gt;
+&lt;a href=&quot;http://www.schimmel-pianos.de/home/instruments/konzert/introduction.html?L=1&quot;&gt;Schimmel Konzert K280 &amp;amp; K256&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;seiler&quot;&gt;Seiler&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016-09-05-liste-der-besten-fluegel/seiler.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+Hergestellt in &lt;strong&gt;Deutschland&lt;/strong&gt; (Kitzingen)&lt;br /&gt;
+&lt;a href=&quot;http://seilerpianousa.com/seiler-pianos/seiler-se-278/&quot;&gt;Seiler SE-278&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://seilerpianousa.com/seiler-pianos/seiler-se-242/&quot;&gt;Seiler SE-242&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;steingraeber--shne&quot;&gt;Steingraeber &amp;amp; Söhne&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016-09-05-liste-der-besten-fluegel/steingraeber_und_soehne_logo.gif&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+Hergestellt in &lt;strong&gt;Deutschland&lt;/strong&gt; (Bayreuth)&lt;br /&gt;
+&lt;a href=&quot;http://www.steingraeber.de/english/grand_pianos_681.html&quot;&gt;Steingraeber &amp;amp; Söhne E-272&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://www.steingraeber.de/english/grand_pianos_681.html&quot;&gt;Steingraeber &amp;amp; Söhne D-232&lt;/a&gt;(Semi-Konzert)&lt;/p&gt;
+
+&lt;h2 id=&quot;steinway--sons&quot;&gt;Steinway &amp;amp; Sons&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016-09-05-liste-der-besten-fluegel/steinway.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+Hergestellt in &lt;strong&gt;Deutschland&lt;/strong&gt; (Hamburg) und den USA (Long Island City, NY)&lt;br /&gt;
+&lt;a href=&quot;http://eu.steinway.com/en/pianos/steinway/grand-pianos/d-274/&quot;&gt;Steinway D-274&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://eu.steinway.com/en/pianos/steinway/grand-pianos/c-227/&quot;&gt;Steinway C-227&lt;/a&gt;(Semi-Konzert)&lt;/p&gt;
+
+&lt;h2 id=&quot;stuart--sons&quot;&gt;Stuart &amp;amp; Sons&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016-09-05-liste-der-besten-fluegel/stuart.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+Hergestellt in Australien (Tumut)&lt;br /&gt;
+&lt;a href=&quot;http://www.stuartandsons.com/models-and-maint.html&quot;&gt;Stuart &amp;amp; Sons Concert Grand&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;thrmer&quot;&gt;Thürmer&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016-09-05-liste-der-besten-fluegel/thuermer.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+Hergestellt in &lt;strong&gt;Deutschland&lt;/strong&gt; (Bochum)&lt;br /&gt;
+&lt;a href=&quot;http://www.thuermer-konzerte.de/pianofortefabrik.html&quot;&gt;Thürmer 280 T &amp;amp; Thürmer 230 T&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;wilh-steinberg&quot;&gt;Wilh. Steinberg&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016-09-05-liste-der-besten-fluegel/wilhsteinberg.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+Hergestellt in China (Yichang) and Germany&lt;br /&gt;
+&lt;a href=&quot;http://www.wilhsteinberg.de/frand-piano/&quot;&gt;Wilh. Steinberg WS-D275&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;yamaha&quot;&gt;Yamaha&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016-09-05-liste-der-besten-fluegel/logo_yamaha.gif&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+Hergestellt in Japan (und Indonesien ?)&lt;br /&gt;
+&lt;a href=&quot;http://usa.yamaha.com/products/musical-instruments/keyboards/premium_pianos/cf_series/cfx/&quot;&gt;Yamaha CFX&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://usa.yamaha.com/products/musical-instruments/keyboards/premium_pianos/cf_series/cf6/?mode=model&quot;&gt;Yamaha CF6&lt;/a&gt;(Semi-Konzert)&lt;/p&gt;
+
+&lt;h2 id=&quot;young-chang&quot;&gt;Young Chang&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016-09-05-liste-der-besten-fluegel/YoungChangLogo.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+Hergestellt in Südkorea (Incheon)&lt;/p&gt;
+
+&lt;h4 id=&quot;albert-weber&quot;&gt;Albert Weber&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016-09-05-liste-der-besten-fluegel/weber.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+Hergestellt von Young Chang&lt;br /&gt;
+&lt;a href=&quot;http://weberpiano.com/ublminxportfolios/aw228/&quot;&gt;Albert Weber AW-228&lt;/a&gt;(Semi-Konzert)&lt;br /&gt;
+&lt;a href=&quot;http://weberpiano.com/ublminxportfolios/aw275/&quot;&gt;Albert Weber AW-275&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Des armen Apostrophus‘ täglich Leid</title>
+   <link href="/2016/09/05/der-deppenapostroph.html"/>
+   <updated>2016-09-05T21:03:00+02:00</updated>
+   <id>/2016/09/05/der-deppenapostroph</id>
+   <content type="html">&lt;p&gt;Es mag Leute geben, die Wort und Schrift so anwenden, wie sie generell durchs Leben zu streifen pflegen: Ein bisschen schludrig
+hier, gedankenlos bis unbelehrbar dort. Oder schlicht bis aufs Äußerste unwissend. Das Ergebnis: Rechtschreibung
+wird zunehmend zum Glücksspiel. Verzerrte Sprache erobert ungestraft den öffentlichen Raum und gerinnt
+allmählich zu akzeptiertem Allgemeingut.&lt;/p&gt;
+
+&lt;p&gt;Der neuzeitliche Gebrauch des Apostrophs steht beispielhaft für diese Entwicklung. Den Einsatz des schüchternen
+Strichleins hat sich die deutsche Sprache dereinst für ganz bestimmte Ausnahmefälle vorbehalten. Für
+wohldosierte Ausbrüche aus dem schnöden schreiberischen Einerlei. Heute dagegen kreist der Holzhammer.
+Und es wirkt nicht mal mehr bemüht, sondern nur noch obszön, wenn das einst verschämt und leise eingestreute
+Symbölchen von jeder zweit- und drittklassigen Reklametafel krakeelt. In einer Kühnheit wird der brave
+Apostrophus entblößt, dass es empfindsamen Sprachseelen graust.&lt;/p&gt;
+
+&lt;p&gt;Beispiele lassen sich viele und überall finden. Wenn etwa die brave Mimi dem Vorbeieilenden den Besuch ihres
+Schönheitstempels anheimstellt, wundert es einen nicht, wenn das Portal des Etablissements die Worte
+zieren: „Mimi’s Beautysalon“. Selbst den längst zu Staub zerfallenen DDR-Prachtbau „Palast der Republik“
+darf man heute gänzlich ungeniert als „Erich’s Lampenladen“ schmähen.&lt;/p&gt;
+
+&lt;p&gt;Ach ja: Um den Genitiv, den Wesfall, zu kennzeichnen, reicht das ohne Apostroph angehängte s übrigens völlig
+aus. Annas Traum ist ganz der ihre, auch ohne Apostroph. Genauso wie Großvaters Briefmarkensammlung inhaltlich
+wie sprachlich komplett ist.&lt;/p&gt;
+
+&lt;p&gt;Derbe, komische, Kopfschütteln zuhauf auslösende Beispiele für den Missbrauch des Apostrophs finden sich
+in beschämender Fülle hier: deppenapostroph.info.&lt;/p&gt;
+
+&lt;h2 id=&quot;die-einschlgigen-rechtschreib-regeln-zum-thema&quot;&gt;Die einschlägigen Rechtschreib-Regeln zum Thema&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Man setzt&lt;/strong&gt; einen Apostroph bei Wörtern mit Auslassungen, wenn die verkürzten Wortformen sonst schwer
+lesbar oder missverständlich wären (Bsp.: „Dass aber der Wein von Ewigkeit sei, daran zweifl’ ich nicht
+(…)“).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Man kann&lt;/strong&gt; einen Apostroph
+&lt;strong&gt;setzen&lt;/strong&gt;, wenn Wörter der gesprochenen Sprache mit Auslassungen schriftlich wiedergegeben werden
+und sonst schwer verständlich sind (Bsp.: „Da fährt sich’s schlecht.“).&lt;/p&gt;
+
+&lt;p&gt;Bei allgemein üblichen Verschmelzungen von Präposition (Verhältniswort) und Artikel setzt man keinen Apostroph
+(Bsp.: ans, aufs, durchs, fürs, hinters, ins etc.).&lt;/p&gt;
+
+&lt;p&gt;Der Apostroph steht &lt;strong&gt;nur dann&lt;/strong&gt; zur Kennzeichnung des Genitivs (Wesfalls) von Namen, wenn diese auf s,
+ss, ß, tz, z, x, ce enden und keinen Artikel o. Ä. bei sich haben (Bsp.: Grass’ Blechtrommel, Voß’ Übersetzung,
+Ringelnatz’ Gedichte, Marx’ Philosophie).&lt;/p&gt;
+</content>
+ </entry>
+ 
+ 
+</feed>
