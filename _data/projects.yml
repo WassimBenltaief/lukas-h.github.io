@@ -1,15 +1,11 @@
-- name: toy-http
-  link: "https://github.com/lukas-h/toy-http"
-  description: "Ein HTTP Server mit minimalem Footprint für statisches Filehosting."
+- name: ReactiveFB
+  link: "https://github.com/WassimBenltaief/ReactiveFB"
+  description: "RxJava 2 wrapper for the Facebook Sdk"
 
-- name: Snippets
-  link: "https://bitbucket.org/snippets/lukashimsel/"
-  description: "Code-Schnipsel und Experimente auf Bitbucket."
+- name: FlowLayout
+  link: "https://github.com/WassimBenltaief/FlowLayout"
+  description: "A custom Layout packed with a content view, an empty view, a progress bar and network connectivity status."
 
-- name: Circle of Fifths
-  link: "http://himsel.me/fifths/"
-  description: "Ein Quintenzirkel für Musikalische."
-
-- name: Code for Heilbronn
-  link: "https://github.com/opendata-heilbronn"
-  description: "Open Data Initiative rund um die Stadt Heilbronn."
+- name: AndroidMvpBoilerplate
+  link: "hhttps://github.com/WassimBenltaief/AndroidMvpBoilerplate"
+  description: "Android boilerplate that showcases MVP architecture with third-party libraries"
